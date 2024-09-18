@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 function App() {
   var currentPage = 0;
-  const [chartData, setChartData] = useState(null); // State to store the breach data
 
 
   return (
@@ -24,8 +23,6 @@ function App() {
           <button id="hardButton"  type="button" onClick={emailCheckHard}>HARD</button>
           <div id="testDiv"></div>
 
-          {/* Conditionally render the DataCharts component */}
-          <div className='Charts'>{chartData && <DataCharts data={chartData} />}</div>
         </div>
 
         
