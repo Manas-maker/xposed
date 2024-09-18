@@ -1,7 +1,6 @@
 
 import './App.css';
 import axios from 'axios';
-import DataCharts from './chart.jsx'
 import { useState } from 'react';
 
 
