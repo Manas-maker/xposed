@@ -2,27 +2,200 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70%;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  flex-wrap: wrap;
+  background-color: #4780c1;
+  color: whitesmoke;
 }
 
-#emailCheck{
-  margin-right: 10px;
+html{
+  background-color: #4780c1;
+  height: 100%;
+  padding-top: 0%;
 }
 
-#domainCheck{
-  margin-right: 10px;
+#emailCheck, #passCheck, #domainCheck{
+  margin-right: 50px;
+  margin-top: 50px;
+  
 }
 
-#passCheck{
-  margin-right: 10px;
+:where(#emailCheck, #passCheck, #domainCheck):hover{
+  border: 1px solid black;
+  
 }
 
-.MainData{
-  border: 2px solid black;
+#question{
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  margin-left: 39%;
+  margin-top: 5%
+}
 
+#questionDomain{
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  margin-left: 37%;
+  margin-top: 5%
 }
 
 .breachedEmailListing{
   padding-bottom: 4px;
   padding-left: 10px;
+  color: white;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#lightEmailInput{
+  width:650px;
+  height: 55px;
+  margin-left: 30%;
+  margin-top: 0%;
+  border-radius: 8px; 
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(81, 77, 77);
+  border-color: white;
+}
+
+
+#lightButton{
+  width: 100px;
+  height: 50px;
+  margin-left: 42%;
+  margin-top: 20px;
+  color: #4780c1;
+  background-color: white;
+  border-radius: 8px;
+  border-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#hardButton{
+  width: 100px;
+  height: 50px;
+  margin-left: 5%;
+  margin-top: 33px;
+  color: #4780c1;
+  background-color: white;
+  border-radius: 8px;
+  border-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#lightButton:hover{
+  background-color: #a1bcda;
+}
+
+#hardButton:hover{
+  background-color: #a1bcda;
+}
+
+/* Chart Css Do Not Edit DUmbass */
+.Charts{
+  width: 100%;
+  height: 80vh;
+}
+
+/* Password tbab */
+#contentBodyPassword{
+  display: flex;
+  flex-direction: column;
+}
+
+#passCheckDiv{
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#passCheckDiv > input{
+  width:650px;
+  height: 55px;
+  margin-left: 30%;
+  margin-top: 0%;
+  border-radius: 8px; 
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(81, 77, 77);
+  border-color: white;
+}
+#questionpass{
+  margin-top: 5%;
+  margin-left: 40%;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+}
+
+/* Domain tab */
+#contentBodyDomain{
+  display: flex;
+  flex-direction: column;
+}
+
+#contentBodyDomain{
+  display: none;
+}
+
+#domainInput{
+  width:650px;
+  height: 55px;
+  margin-left: 30%;
+  margin-top: 0%;
+  border-radius: 8px; 
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(81, 77, 77);
+  border-color: white;
+}
+
+#domainButton{
+  width: 100px;
+  height: 50px;
+  margin-left: 46%;
+  margin-top: 20px;
+  color: #4780c1;
+  background-color: white;
+  border-radius: 8px;
+  border-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#domainButton:hover{
+  background-color: #a1bcda;
 }
